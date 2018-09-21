@@ -1,0 +1,7 @@
+Credentials cache: API:1591
+        Principal: zoulhafi@1337.MA
+
+  Issued                Expires               Principal
+Aug 27 14:41:54 2018  Aug 28 00:41:52 2018  krbtgt/1337.MA@1337.MA
+Aug 27 14:41:55 2018  Aug 28 00:41:52 2018  ldap/ldap-master.1337.ma@1337.MA
+Aug 27 14:41:55 2018  Aug 28 00:41:52 2018  HTTP/iscsi.1337.ma@1337.MA
