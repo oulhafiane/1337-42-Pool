@@ -1,0 +1,8 @@
+Credentials cache: API:1591
+        Principal: zoulhafi@1337.MA
+
+  Issued                Expires               Principal
+Aug 28 22:37:08 2018  Aug 29 08:37:08 2018  krbtgt/1337.MA@1337.MA
+Aug 28 22:37:11 2018  Aug 29 08:37:08 2018  ldap/ldap-master.1337.ma@1337.MA
+Aug 28 22:37:11 2018  Aug 29 08:37:08 2018  HTTP/iscsi.1337.ma@1337.MA
+Aug 28 22:41:36 2018  Aug 29 08:37:08 2018  host/vogsphere.1337.ma@1337.MA
