@@ -6,7 +6,7 @@
 /*   By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/17 02:13:41 by zoulhafi          #+#    #+#             */
-/*   Updated: 2018/09/21 03:23:00 by zoulhafi         ###   ########.fr       */
+/*   Updated: 2018/09/21 02:27:34 by zoulhafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,9 @@
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <fcntl.h>
+
+int		ft_read(char *path, long size, int print);
+
+int		ft_atoi(const char *str);
 
 #endif

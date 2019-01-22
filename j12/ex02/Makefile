@@ -6,11 +6,11 @@
 #    By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/17 02:04:47 by zoulhafi          #+#    #+#              #
-#    Updated: 2018/09/21 03:27:08 by zoulhafi         ###   ########.fr        #
+#    Updated: 2018/09/21 03:27:38 by zoulhafi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ft_display_file
+NAME = ft_tail
 
 LIB = ft
 
@@ -26,7 +26,7 @@ DEPS = $(patsubst %, $(INCLUDES)%, $(_DEPS))
 
 FLAGS = -Wall -Wextra -Werror
 
-_OBJ = ft_display_file.o ft_putchar.o ft_putstr.o ft_strlen.o
+_OBJ = ft_display_file.o ft_atoi.o ft_tail.o ft_putchar.o ft_putstr.o ft_strlen.o
 
 OBJ = $(patsubst %, $(NAME_OBJ)%, $(_OBJ))
 

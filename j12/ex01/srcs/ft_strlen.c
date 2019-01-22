@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_all.h                                           :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/09/17 02:13:41 by zoulhafi          #+#    #+#             */
-/*   Updated: 2018/09/21 03:23:00 by zoulhafi         ###   ########.fr       */
+/*   Created: 2018/09/03 01:01:55 by zoulhafi          #+#    #+#             */
+/*   Updated: 2018/09/03 18:17:47 by zoulhafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_ALL_H
-# define FT_ALL_H
-# include "ft.h"
-# include <unistd.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
+int		ft_strlen(char *str)
+{
+	int i;
 
-#endif
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}

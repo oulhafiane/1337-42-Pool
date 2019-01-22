@@ -6,11 +6,11 @@
 #    By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/17 02:04:47 by zoulhafi          #+#    #+#              #
-#    Updated: 2018/09/17 02:11:45 by zoulhafi         ###   ########.fr        #
+#    Updated: 2018/09/21 03:27:26 by zoulhafi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ft_display_file
+NAME = ft_cat
 
 LIB = ft
 
@@ -26,14 +26,14 @@ DEPS = $(patsubst %, $(INCLUDES)%, $(_DEPS))
 
 FLAGS = -Wall -Wextra -Werror
 
-_OBJ = ft_display_file.o
+_OBJ = ft_display_file.o ft_cat.o ft_putchar.o ft_putstr.o ft_strlen.o
 
 OBJ = $(patsubst %, $(NAME_OBJ)%, $(_OBJ))
 
 CC = gcc $(FLAGS)
 
 all: $(_OBJ)
-	$(CC) -o $(NAME) $(OBJ) -L . -l $(LIB)
+	$(CC) -o $(NAME) $(OBJ)
 
 %.o: $(SRCS)%.c $(DEPS)
 	$(CC) -o $(NAME_OBJ)$@ -c $<

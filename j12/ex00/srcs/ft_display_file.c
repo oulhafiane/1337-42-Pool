@@ -6,7 +6,7 @@
 /*   By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/17 01:53:20 by zoulhafi          #+#    #+#             */
-/*   Updated: 2018/09/20 23:28:05 by zoulhafi         ###   ########.fr       */
+/*   Updated: 2018/09/21 03:22:10 by zoulhafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,11 @@ int		main(int argc, char **argv)
 {
 	if (argc <= 1)
 		ft_putstr("File name missing.\n");
-	else if (argc > 2 )
+	else if (argc > 2)
 		ft_putstr("Too many arguments.\n");
 	else
 	{
-		return(ft_read(argv[1]));
+		return (ft_read(argv[1]));
 	}
 	return (0);
 }
