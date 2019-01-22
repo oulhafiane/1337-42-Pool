@@ -21,7 +21,7 @@ The only prerequisite… is to know how to use a computer.
 ###### Day 09 ==>  23 (Cannot retry)
 #### [Day 10](https://github.com/oulhafiane/1337-42-Pool/blob/master/j10/d10.en.pdf) ==>  100 (2 retries)
 #### [Day 11](https://github.com/oulhafiane/1337-42-Pool/blob/master/j11/d11.en.pdf) ==>  100 (3 retries)
-###### [Day 12](https://github.com/oulhafiane/1337-42-Pool/blob/master/j12/d12.en.pdf) ==>  -42 (Cannot retry because Pool Finished)
+###### [Day 12](https://github.com/oulhafiane/1337-42-Pool/blob/master/j12/d12.en.pdf) ==>  -42 (Cannot retry because Pool Finished, i got -42 because i used an unauthorized function, i thought it was authorized)
 ###### Day 13 ==> 0 (Pool finished)
 ###### [EvalExpr](https://github.com/oulhafiane/1337-42-Pool/blob/master/EvalExpr/proj02.en.pdf) ==>  0 (I forgot to add subdirectory named ex00)
 ###### [Match-N-Match](https://github.com/oulhafiane/1337-42-Pool/blob/master/Match-N-Match/proj01.en.pdf) ==>  0 (I gave up)
