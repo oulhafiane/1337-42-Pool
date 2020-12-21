@@ -1,3 +1,4 @@
+[![42 Profile Card](https://1337-readme.vercel.app/api/profile?cursus=42cursus&login=zoulhafi)](https://github.com/mohouyizme/1337-readme)
 # 1337-42-Pool
 The “pool” is a 4-week immersion in the coding world. Just like a marathon runner, you will take a deep dive.  
 Every day, weekends included during a month, you will be working on IT projects.  
